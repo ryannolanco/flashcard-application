@@ -1,0 +1,62 @@
+
+.viewdeck-page {
+  padding: 10px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: antiquewhite;
+}
+.view-deck-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-bar {
+  align-self: flex-start;
+}
+
+.deck-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.view-deck-buttons {
+  display: flex;
+  gap: 2px;
+  margin: 2px 2px;
+}
+
+.card-options-buttons {
+  gap: 2px;
+}
+
+
+/* -- table styles -- */
+.view-deck-table, td {
+  table-layout: fixed;
+  text-align: left;
+  border: 1px solid;
+}
+
+.table-buttons {
+  display: flex;
+  gap: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  align-items: center;
+}
+
+.cards-area {
+  padding-top: 10px;
+}
+
+td {
+  padding: 9px;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}

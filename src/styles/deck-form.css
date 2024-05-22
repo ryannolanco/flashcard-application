@@ -1,0 +1,16 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-new-deck {
+  border: 1px solid;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.form-buttons {
+  display: flex;
+  padding-top: 8px;
+  gap: 4px;
+}
