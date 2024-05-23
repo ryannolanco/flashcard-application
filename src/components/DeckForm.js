@@ -59,6 +59,7 @@ const DeckForm = () => {
     }
     submitDeck(deckData)
     setDeckData({ ...intialDeckFormState })
+    navigate("/")
   }
 
     //handle canceling of both edit and create card

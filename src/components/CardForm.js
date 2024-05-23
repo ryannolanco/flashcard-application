@@ -56,6 +56,7 @@ const CardForm = ({ cardFormData, setCardFormData, foundDeck, intialCardFormData
           createCard(deckId, newCard, signal)
         } else {
           updateCard(newCard, signal)
+          navigate(`/decks/${foundDeck.id}`)
         }
 
       } catch (error) {
