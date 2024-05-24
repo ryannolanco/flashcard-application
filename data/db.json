@@ -37,12 +37,6 @@
       "back": "All paths. A route with no path matches all URL's"
     },
     {
-      "front": "What does <Switch> do?",
-      "back": "Renders the first matching child <Route> ",
-      "deckId": 2,
-      "id": 5
-    },
-    {
       "cards": [],
       "front": "b",
       "back": "b",

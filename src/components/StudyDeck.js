@@ -84,7 +84,7 @@ const StudyDeck = ({ foundDeck }) => {
 						<h3>Not enough cards.</h3>
 						<p>{`You need at least 3 cards to study. There are only ${foundDeck.cards.length} cards in this deck.`}</p>
 						<div className='not-enough-button'>
-							<Link className="blue-button" to={`/decks/2/cards/new`}>+ Add Cards</Link>
+							<Link className="blue-button" to={`/decks/${foundDeck.id}/cards/new`}>+ Add Cards</Link>
 						</div>
 					</div>
 				</div>
